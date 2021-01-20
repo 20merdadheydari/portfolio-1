@@ -63,7 +63,7 @@ Coming Soon!
 - 4.0 GPA
 - Additional Certificates: _Graphic Design_, _Web Coding_ and _Java_
 
-### B.S. (Mech. Eng.)
+### B.S. (Mechanical Engineering)
 
 12.05
 
