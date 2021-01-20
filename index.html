@@ -27,11 +27,68 @@
   <body>
     <!-- Generally, 'h1' should match our 'title page.' -->
 
-    <header>
-      <!-- Self-closing tag -->
-      <img src="./assets/images/logo.jpg" alt="Manav Misra headshot" />
-      <h1>Manav Misra</h1>
-      <h2>Fullstack JavaScript Developer</h2>
+    <header class="card rounded">
+      <!-- TODO: Select the first 'div child' that inside of the header -->
+      <div>
+        <!-- Self-closing tag -->
+        <img
+          src="./assets/images/logo.jpg"
+          alt="Manav Misra headshot"
+          class="rounded"
+        />
+        <h1>Manav Misra</h1>
+        <h2>Fullstack JavaScript Developer</h2>
+      </div>
+
+      <div>
+        <a href="mailto:manavm@visionwebsoft.com">
+          <!-- mailbox SVG -->
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 20 20"
+            fill="currentColor"
+          >
+            <path
+              d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z"
+            />
+            <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z" />
+          </svg>
+          <span>manavm@visionwebsoft.com</span></a
+        >
+      </div>
+
+      <div>
+        <a href="tel:16187721796">
+          <!-- Phone SVG -->
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 20 20"
+            fill="currentColor"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M7 2a2 2 0 00-2 2v12a2 2 0 002 2h6a2 2 0 002-2V4a2 2 0 00-2-2H7zm3 14a1 1 0 100-2 1 1 0 000 2z"
+              clip-rule="evenodd"
+            />
+          </svg>
+          <span>618.772.1796</span></a
+        >
+      </div>
+
+      <div>
+        <a
+          href="https://github.com/manavm1990"
+          target="_blank"
+          rel="noopener noreferrer"
+          ><img src="./assets/icons/github.png" alt="GitHub logo"
+        /></a>
+        <a
+          href="https://www.linkedin.com/in/manavm1990/"
+          target="_blank"
+          rel="noopener noreferrer"
+          ><img src="./assets/icons/linkedin.png" alt="LinkedIn logo"
+        /></a>
+      </div>
     </header>
 
     <script src="./scripts.js" type="module"></script>
