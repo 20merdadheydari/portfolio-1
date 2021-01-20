@@ -1,4 +1,6 @@
+/* Root is the top level selector in CSS. */
 :root {
+  /* CSS Custom Properties AKA CSS Variables */
   --margin-bottom-rhythm: 1.75rem;
 }
 
