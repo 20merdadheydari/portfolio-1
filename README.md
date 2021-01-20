@@ -1,6 +1,6 @@
 # Manav Misra
 
-**Fullstack JavaScript Developer**
+## Fullstack JavaScript Developer
 
 - manavm@visionwebsoft.com
 - 618.772.1796
