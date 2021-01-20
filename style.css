@@ -21,11 +21,6 @@ body {
   font-size: 10px;
 }
 
-/* Select first div in header */
-header div:first-child {
-  margin-bottom: var(--margin-bottom-rhythm);
-}
-
 h1 {
   font-size: 1.728em;
   font-weight: 600;
@@ -88,4 +83,8 @@ a {
 .rounded {
   /* Rounded corners */
   border-radius: 0.75rem;
+}
+
+.vertical-rhythm {
+  margin-bottom: var(--margin-bottom-rhythm);
 }
