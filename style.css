@@ -54,6 +54,10 @@ a img {
   width: 2rem;
 }
 
+ul {
+  padding-left: 0;
+}
+
 svg {
   margin-right: 0.25rem;
 
@@ -79,6 +83,13 @@ a {
 .card {
   background: #fff;
   padding: 1rem;
+}
+
+.inline-list {
+  display: inline-block;
+
+  /* Top-right-bottom-left */
+  margin: 0 0.5rem 0.25rem 0;
 }
 
 .rounded {
